@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		97768A0122B1373100B44726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97768A0022B1373100B44726 /* AppDelegate.swift */; };
-		97768A0322B1373100B44726 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 97768A0222B1373100B44726 /* GameScene.sks */; };
-		97768A0522B1373100B44726 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 97768A0422B1373100B44726 /* Actions.sks */; };
 		97768A0722B1373100B44726 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97768A0622B1373100B44726 /* GameScene.swift */; };
 		97768A0922B1373100B44726 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97768A0822B1373100B44726 /* GameViewController.swift */; };
 		97768A0C22B1373100B44726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97768A0A22B1373100B44726 /* Main.storyboard */; };
 		97768A0E22B1373300B44726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97768A0D22B1373300B44726 /* Assets.xcassets */; };
 		97768A1122B1373300B44726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97768A0F22B1373300B44726 /* LaunchScreen.storyboard */; };
+		97768A1922B1517400B44726 /* MyFirstTileScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 97768A1822B1517400B44726 /* MyFirstTileScene.sks */; };
+		97768A1D22B1545F00B44726 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 97768A1C22B1545F00B44726 /* MyTileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		977689FD22B1373100B44726 /* SpireKit Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpireKit Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97768A0022B1373100B44726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97768A0222B1373100B44726 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		97768A0422B1373100B44726 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		97768A0622B1373100B44726 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		97768A0822B1373100B44726 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		97768A0B22B1373100B44726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97768A0D22B1373300B44726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97768A1022B1373300B44726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97768A1222B1373400B44726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97768A1822B1517400B44726 /* MyFirstTileScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyFirstTileScene.sks; sourceTree = "<group>"; };
+		97768A1C22B1545F00B44726 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 		977689FF22B1373100B44726 /* SpireKit Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				97768A1C22B1545F00B44726 /* MyTileSet.sks */,
 				97768A0022B1373100B44726 /* AppDelegate.swift */,
-				97768A0222B1373100B44726 /* GameScene.sks */,
-				97768A0422B1373100B44726 /* Actions.sks */,
 				97768A0622B1373100B44726 /* GameScene.swift */,
+				97768A1822B1517400B44726 /* MyFirstTileScene.sks */,
 				97768A0822B1373100B44726 /* GameViewController.swift */,
 				97768A0A22B1373100B44726 /* Main.storyboard */,
 				97768A0D22B1373300B44726 /* Assets.xcassets */,
@@ -132,10 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97768A0C22B1373100B44726 /* Main.storyboard in Resources */,
-				97768A0322B1373100B44726 /* GameScene.sks in Resources */,
+				97768A1922B1517400B44726 /* MyFirstTileScene.sks in Resources */,
 				97768A0E22B1373300B44726 /* Assets.xcassets in Resources */,
+				97768A1D22B1545F00B44726 /* MyTileSet.sks in Resources */,
 				97768A1122B1373300B44726 /* LaunchScreen.storyboard in Resources */,
-				97768A0522B1373100B44726 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
